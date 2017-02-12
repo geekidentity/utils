@@ -14,7 +14,7 @@ public class SortTestBase {
 	protected Random rand = new Random();
 	
 	/**
-	 * 提供默认大小为10 的测试数组
+	 * 提供默认大小为 10 的测试数组
 	 */
 	public SortTestBase() {
 		array = new Integer[10];

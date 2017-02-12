@@ -51,4 +51,10 @@ public class Sorts {
 		}
 		return max;
 	}
+	
+	public static void swap(Integer[] array, int a, int b) {
+		Integer t = array[a];
+		array[a] = array[b];
+		array[b] = t;
+	}
 }

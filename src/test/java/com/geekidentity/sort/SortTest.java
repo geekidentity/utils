@@ -17,22 +17,11 @@ import org.junit.Test;
  * @version: V1.0
  *
  */
-public class SortTest extends SortBase {
+public class SortTest extends SortTestBase {
 	
 	@Before
 	public void init() {
 		init(10);
-	}
-	
-	/**
-	 * 冒泡排序测试
-	 */
-	@Test
-	@Ignore
-	public void bubbleSortTest() {
-		BubbleSort.sort(array);
-		System.out.println(Arrays.toString(array));
-		assertEquals(true, Sorts.isAscendingSequence(array));
 	}
 	
 	@Test

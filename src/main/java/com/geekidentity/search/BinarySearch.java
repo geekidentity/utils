@@ -39,16 +39,4 @@ public class BinarySearch {
 		return -1;
 	}
 	
-	
-	
-	public static void main(String[] args) {
-		int []array = ArrayUtil.randArray(10, 100);
-		SelectionSort.sort(array);
-		ArrayUtil.printArray(array);
-		for (int i = 0; i < array.length; i++) {
-			int index = BinarySearch.binsearch(array, array[i], 0, array.length);
-			System.out.println(index);
-		}
-		
-	}
 }
